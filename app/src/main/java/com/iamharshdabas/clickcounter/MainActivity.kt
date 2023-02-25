@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity() {
         buttonClick.setOnClickListener {
             count++
             textNumberOfClicks.text = "$count"
-            if (count > 9) {
-                textTime.text = "${System.currentTimeMillis() - timeStart}"
+            if (count > 19) {
+                textTime.text = "${(System.currentTimeMillis() - timeStart) / 1000}"
                 buttonClick.isEnabled = false
             }
         }
