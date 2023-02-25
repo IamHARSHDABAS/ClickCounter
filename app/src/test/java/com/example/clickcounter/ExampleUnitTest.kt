@@ -1,4 +1,4 @@
-package com.iamharshdabas.clickcounter
+package com.example.clickcounter
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.iamharshdabas.clickcounter
+package com.example.clickcounter
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.iamharshdabas.clickcounter", appContext.packageName)
+        assertEquals("com.example.clickcounter", appContext.packageName)
     }
 }
