@@ -2,4 +2,5 @@
     <string name="app_name">ClickCounter</string>
     <string name="count_0">0</string>
     <string name="click_me">Click ME</string>
+    <string name="start">start</string>
 </resources>
